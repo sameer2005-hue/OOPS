@@ -14,8 +14,7 @@ class employee
 public:
     void setdata(void)
     {
-        cout << endl
-             << "enter the id: " << endl;
+        cout << "enter the id: " << endl;
         cin >> id;
         count++;
     }
@@ -23,9 +22,8 @@ public:
     {
         cout << "the id of this employee is: " << id << " and this is employee number is: " << count << endl;
     }
-    static void getCount(void)
-    {
-        cout << "the value of count is: " << count << endl;
+    static void getCount(void){
+        cout<<"the value of count is: "<<count<<endl;
     }
 };
 
